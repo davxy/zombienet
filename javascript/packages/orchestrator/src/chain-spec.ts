@@ -124,6 +124,7 @@ export function getNodeKey(
     {
       grandpa: ed_account.address,
       babe: sr_account.address,
+      sassafras: sr_account.address,
       im_online: sr_account.address,
       parachain_validator: sr_account.address,
       authority_discovery: sr_account.address,
