@@ -74,6 +74,7 @@ export async function generateKeystoreFiles(
       ? node.accounts.ed_account.publicKey
       : node.accounts.sr_account.publicKey,
     babe: node.accounts.sr_account.publicKey,
+    sass: node.accounts.sr_account.publicKey,
     imon: node.accounts.sr_account.publicKey,
     gran: node.accounts.ed_account.publicKey,
     audi: node.accounts.sr_account.publicKey,
